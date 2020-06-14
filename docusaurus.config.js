@@ -64,7 +64,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Swissknife, Inc.`,
     },
   },
-  plugins: [require.resolve("@docusaurus/plugin-google-analytics")],
   presets: [
     [
       "@docusaurus/preset-classic",
