@@ -7,6 +7,9 @@ module.exports = {
   organizationName: "swissknife",
   projectName: "docs",
   themeConfig: {
+    googleAnalytics: {
+      trackingID: "UA-162878595-1",
+    },
     navbar: {
       title: "Swissknife",
       logo: {
@@ -61,6 +64,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Swissknife, Inc.`,
     },
   },
+  plugins: [require.resolve("@docusaurus/plugin-google-analytics")],
   presets: [
     [
       "@docusaurus/preset-classic",
