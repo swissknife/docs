@@ -16,9 +16,7 @@ Right now you can view the reports which are generated as CircleCI artifacts.
 
 :::tip
 
-Coming up very soon, Swissknife will also let you view these alerts on the Swissknife service.
-Reach out to us on Twitter [@swissknifedev](https://twitter.com/swissknifedev) or via email at
-`hi@swissknife.dev` if you want to be a part of the beta.
+Once the report is reported is generated it can be viewed at [beta.swissknife.dev](https://beta.swissknife.dev)
 
 :::
 
