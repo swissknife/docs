@@ -43,12 +43,17 @@ key you would pass to `restore_cache` or `save_cache`.
 ### Save Cache
 
 The following step is used to save cache. The cache key prefix is a string similar to the
-key you would pass to `restore_cache` or `save_cache`.
+key you would pass to `restore_cache` or `save_cache`. The `save-cache-directory-1`, and similarly 2
+and 3 are the directories to save in the cache. Currently ttl-cache allows saving upto 3 directories,
+All directories saved are saved recursively. These are very similar to the paths field in the native
+`save_cache` command.
 
 ```yml
 - swissknife/ttl-cache:
     type: save
     cache-key-prefix: go-mod-v1-{{ checksum "go.mod" }}-{{ checksum "go.sum" }}
+    save-cache-directory-1: /path/to/save
+    save-cache-directory-2: /another/path/to/save
 ```
 
 ### Branch based cache behavior
