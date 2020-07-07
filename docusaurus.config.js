@@ -7,6 +7,7 @@ module.exports = {
   organizationName: "swissknife",
   projectName: "docs",
   themeConfig: {
+    sidebarCollapsible: false,
     googleAnalytics: {
       trackingID: "UA-162878595-1",
     },
