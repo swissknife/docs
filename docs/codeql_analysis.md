@@ -6,13 +6,8 @@ sidebar_label: CodeQL Code Scanning
 
 Github recently launched [code scanning](https://github.com/features/security) which is based off of
 an open source collection of CodeQL queries which analyze code to find security vulnerabilities. This
-is only available on their enterprise plan & public repositories at the current point in time.
-Swissknife tries to reduce this gap by offering the ability to scan your private repositories as well.
-Github currently allows reporting of Code scans only if the repository is public or you are on the
-enterprise plan, so while you can scan your code using CodeQL and Swissknife makes this easily
-possible, viewing the results of the scan on Github is not an option.
-
-Right now you can view the reports which are generated as CircleCI artifacts.
+is only available on their enterprise plan & public repositories via github actions.
+Swissknife tries to reduce this gap by offering the ability to run scans via CircleCI as well.
 
 :::tip
 
