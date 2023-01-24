@@ -41,12 +41,12 @@ Creating a Redundant Build config requires configuring 2 parts,
 This guide will walk you through configuring a redundant build.
 
 - Navigate to the Redundant build page and create one for the repo you want to apply it for (or edit one if you already made it)
-  ![img](/static/img/rb/rb_home.png)
+  ![img](/img/rb/rb_home.png)
 
 - Branch Conditions allow for 2 modes, branches that match, or branches that don't match. To mimic CircleCI's default auto cancel feature, one would choose `don't match` and add main/master to the list of branches. E.g. As seen below
-  ![img](/static/img/rb/dont_match_master.png)
+  ![img](/img/rb/dont_match_master.png)
 
   - To also exclude release branches, add a branch prefix of `release/`. In this case both the branch list and branch prefix are obeyed.
 
 - Workflow conditions similar to branch conditions allow for workflows that match, or don't match. Additionally they allow cancelling `all Workflows` which is the condition one would pick to mimic circle's default setting.
-  ![img](/static/img/rb/workflows_match.png)
+  ![img](/img/rb/workflows_match.png)
