@@ -14,7 +14,7 @@ you have to be using v2.1 of Circle config to use orbs.
 
 ```
 orbs:
-  swissknife: roopakv/swissknife@0.39.0
+  swissknife: roopakv/swissknife@0.69.0
 ```
 
 Read more about the various commands and what you can do with the Orb in the Orb Features section.
@@ -22,4 +22,4 @@ Read more about the various commands and what you can do with the Orb in the Orb
 ## Service
 
 The Swissknife service adds functionality which cannot be done by just an Orb. The service is
-currently in beta and to get access to the service please reach out to us at `hi@swissknife.dev`
+currently in beta and available at [https://beta.swissknife.dev](https://beta.swissknife.dev)
