@@ -15,7 +15,7 @@ trigger builds for and you are done.
 - This feature requires your org to subscribe to the [Swissknife Pro plan](https://beta.swissknife.dev)
 - Requires you to connect Swissknife to github and CircleCI using the Org settings page.
 
-## Choose Repos you need to triggerr builds for when a PR is opened
+## Choose Repos you need to trigger builds for when a PR is opened
 
 - Navigate to the PR Triggers page and select the repos you want this for, and click save
   ![img](/img/prt/prt_home.png)
