@@ -17,7 +17,9 @@ trigger builds for and you are done.
 
 ## Choose Repos you need to trigger builds for when a PR is opened
 
-- Navigate to the PR Triggers page and select the repos you want this for, and click save
-  ![img](/img/prt/prt_home.png)
+- Navigate to the PR Triggers page and create a setting for the repository you want to set up triggers for
+  ![img](/img/prt/prt_dialog.png)
 
+- Run as user requires all users to have logged in to Swissknife and connected circleci.
+  - You can choose to run as user and fallback to the org token for a best effort case.
 - Note this triggers a build for both `opened` and `reopened`
